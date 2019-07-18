@@ -35,3 +35,13 @@ bash <(wget --no-check-certificate -qO- https://github.com/Aniverse/inexistence/
 ```
 wget https://raw.githubusercontent.com/lbq1121/ServerStatus-Hotaru/master/status.sh && chmod +x status.sh
 ```
+
+客户端管理菜单
+```
+bash status.sh c
+```
+
+服务端管理菜单
+```
+bash status.sh s
+```
