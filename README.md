@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-=======
 ## 脚本索引
-* [***代理相关***]
-  * [ssrmu.sh](#ssrmush)
-
+*[ssrmu.sh](#ssrmush)
+  
 
 *[***盒子一键脚本***](#盒子一键脚本)
 
@@ -65,4 +62,3 @@ bash status.sh s
 ```
 /usr/local/ServerStatus/server/config.json
 ```
->>>>>>> 0ef9f168f63d86e0fec4e922e1e95bedc22a531f
