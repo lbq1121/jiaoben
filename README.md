@@ -2,12 +2,13 @@
 [ssrmu.sh](#ssrmush)
   
 
-[***盒子一键脚本***](#盒子一键脚本)
+[盒子一键脚本](#盒子一键脚本)
 
 
-[***探针一键脚本***](#探针一键脚本)
+[探针一键脚本](#探针一键脚本)
 
 
+[transmission汉化 ](#transmission )
 ---
 ## ssrmu.sh
 
@@ -44,4 +45,13 @@ bash status.sh c
 服务端管理菜单
 ```
 bash status.sh s
+```
+
+## transmission 
+
+transmission-web汉化一键脚本
+
+```
+wget https://github.com/ronggang/transmission-web-control/raw/master/release/install-tr-control-cn.sh
+bash install-tr-control-cn.sh
 ```
