@@ -2,10 +2,12 @@
 [ssrmu.sh](#ssrmush)
   
 
-[盒子一键脚本](#盒子一键脚本)
+[ 盒子一键脚本 ](#盒子一键脚本)
 
 
-[探针一键脚本](#探针一键脚本)
+[ 探针一键脚本 ](#探针一键脚本)
+
+[ frp ](#frp)
 
 
 [transmission汉化 ](#transmission )
@@ -54,4 +56,31 @@ transmission-web汉化一键脚本
 ```
 wget https://github.com/ronggang/transmission-web-control/raw/master/release/install-tr-control-cn.sh
 bash install-tr-control-cn.sh
+```
+
+## frp
+
+###服务端一键脚本
+
+```
+wget --no-check-certificate https://raw.githubusercontent.com/clangcn/onekey-install-shell/master/frps/install-frps.sh -O ./install-frps.sh
+chmod 700 ./install-frps.sh
+./install-frps.sh install
+
+````
+
+###更新和卸载
+
+```
+./install-frps.sh update
+
+./install-frps.sh uninstall
+
+```
+
+###群晖网文档
+
+```
+https://www.synology.com/zh-cn/knowledgebase/DSM/tutorial/Network/What_network_ports_are_used_by_Synology_services
+
 ```
