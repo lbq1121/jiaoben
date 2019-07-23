@@ -92,7 +92,7 @@ chmod 700 ./install-frps.sh
 ```
 https://www.synology.com/zh-cn/knowledgebase/DSM/tutorial/Network/What_network_ports_are_used_by_Synology_services
 ```
-##群晖小红点
+## 群晖小红点
 
 ```
 https://github.com/lbq1121/jiaoben/群晖去小红点.md/
