@@ -1,21 +1,26 @@
 ## 脚本索引
 
-* [***ssrmu.sh***](#ssrmush)
+* [ ssrmu.sh ](#ssrmush)
   
 
-* [*** 盒子一键脚本 ***](#盒子一键脚本)
+* [  盒子一键脚本  ](#盒子一键脚本)
 
 
-* [*** 探针一键脚本 ***](#探针一键脚本)
+* [  探针一键脚本  ](#探针一键脚本)
 
 
-* [***transmission汉化 ***](#transmission )
+* [ transmission汉化  ](#transmission )
 
 
-* [*** frp ***](#frp)
+* [  frp  ](#frp)
   * [  服务端一键脚本](#服务端一键脚本)
   * [  更新和卸载](#更新和卸载)
   * [  群晖官网文档](#群晖官网文档)
+
+* [ 群晖去除更新小红点 ](#群晖小红点)
+
+
+
 ---
 ## ssrmu.sh
 
@@ -86,4 +91,9 @@ chmod 700 ./install-frps.sh
 
 ```
 https://www.synology.com/zh-cn/knowledgebase/DSM/tutorial/Network/What_network_ports_are_used_by_Synology_services
+```
+##群晖小红点
+
+```
+https://github.com/lbq1121/jiaoben/群晖去小红点.md/
 ```
