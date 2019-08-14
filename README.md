@@ -19,8 +19,9 @@
 
 * [ 群晖去除更新小红点 ](#群晖小红点)
 
+* [filebrowser](#filebrowser)
 
-
+* [bbr 原版/魔改/plus+锐速 四合一脚本] (#bbr 原版/魔改/plus+锐速 四合一脚本)
 ---
 ## ssrmu.sh
 
@@ -96,4 +97,42 @@ https://www.synology.com/zh-cn/knowledgebase/DSM/tutorial/Network/What_network_p
 
 ```
 https://github.com/lbq1121/jiaoben/blob/master/%E7%BE%A4%E6%99%96%E5%8E%BB%E5%B0%8F%E7%BA%A2%E7%82%B9.md
+```
+## filebrowser
+
+``` 
+apt install curl && curl -fsSL https://filebrowser.xyz/get.sh | bash
+```
+
+### 配置
+
+
+``` 
+创建配置数据库：filebrowser -d /etc/filebrowser.db config init
+
+设置监听地址：filebrowser -d /etc/filebrowser.db config set --address 0.0.0.0
+
+设置监听端口：filebrowser -d /etc/filebrowser.db config set --port 8088
+
+设置语言环境：filebrowser -d /etc/filebrowser.db config set --locale zh-cn
+
+设置日志位置：filebrowser -d /etc/filebrowser.db config set --log /var/log/filebrowser.log
+
+添加一个用户：filebrowser -d /etc/filebrowser.db users add root password --perm.admin，其中的root和password分别是用户名和密码，根据自己的需求更改。
+
+有关更多配置的选项，可以参考官方文档：https://docs.filebrowser.xyz/
+
+配置修改好以后，就可以启动 File Browser 了，使用-d参数指定配置数据库路径。示例：filebrowser -d /etc/filebrowser.db
+
+启动成功就可以使用浏览器访问 File Browser 了，在浏览器输入 IP:端口，示例：http://192.168.1.1:8088
+
+```
+
+
+## bbr 原版/魔改/plus+锐速 四合一脚本
+
+```
+
+wget --no-check-certificate https://github.com/cx9208/Linux-NetSpeed/raw/master/tcp.sh && chmod +x tcp.sh && ./tcp.sh
+
 ```
