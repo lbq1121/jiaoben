@@ -20,7 +20,7 @@
 
 * [filebrowser](#filebrowser)
 
-* [TCP优化](#bbr 原版/魔改/plus+锐速 四合一脚本)
+* [bbr 原版/魔改/plus+锐速 四合一脚本](#bbr 原版/魔改/plus+锐速 四合一脚本)
 ---
 ## ssrmu.sh
 
