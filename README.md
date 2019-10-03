@@ -2,17 +2,16 @@
 
 * [ ssrmu.sh ](#ssrmush)
   
-
 * [  盒子一键脚本  ](#盒子一键脚本)
 
 
 * [  探针一键脚本  ](#探针一键脚本)
 
 
-* [ transmission汉化  ](#transmission )
+* [ transmission汉化一键脚本  ](#transmission )
 
 
-* [  frp  ](#frp)
+* [  frp一键脚本](#frp)
   * [  服务端一键脚本](#服务端一键脚本)
   * [  更新和卸载](#更新和卸载)
   * [  群晖官网文档](#群晖官网文档)
@@ -21,7 +20,7 @@
 
 * [filebrowser](#filebrowser)
 
-* [bbr 原版/魔改/plus+锐速 四合一脚本] (#bbr 原版/魔改/plus+锐速 四合一脚本)
+* [TCP优化](#bbr 原版/魔改/plus+锐速 四合一脚本)
 ---
 ## ssrmu.sh
 
