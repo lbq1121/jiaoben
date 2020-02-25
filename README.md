@@ -1,7 +1,5 @@
 ## 脚本索引
 
-* [ ssrmu.sh ](#ssrmush)
-  
 * [  盒子一键脚本  ](#盒子一键脚本)
 
 
@@ -21,16 +19,8 @@
 * [filebrowser](#filebrowser)
 
 * [bbr 原版/魔改/plus+锐速 四合一脚本](#bbr 原版/魔改/plus+锐速 四合一脚本)
----
-## ssrmu.sh
 
 
-#### 下载安装:
-``` bash
-wget -N --no-check-certificate https://github.com/lbq1121/doubi/raw/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
-```
-
----
 ## 盒子一键脚本
 
 
