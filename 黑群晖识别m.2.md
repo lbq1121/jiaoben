@@ -1,6 +1,6 @@
-# 下载[libNVMEpatch.sh](https://raw.githubusercontent.com/lbq1121/jiaoben/files) 
+# 下载[libNVMEpatch.sh](https://raw.githubusercontent.com/lbq1121/jiaoben/master/files/libNVMEpatch.sh) 
 
-下载libNVMEpatch.sh并上传至群晖DATA文件夹
+下载  https://github.com/lbq1121/jiaoben/raw/master/files/libNVMEpatch.sh 并上传至群晖DATA文件夹
 
 ## 方案一
 
@@ -59,3 +59,4 @@ bash /volume1/DATA/libNVMEpatch.sh
 接下来就是重启黑群， 再次开机后，登陆DSM，打开“存储空间管理员”， 可以看到HDD/SSD栏下面， 赫然已经认出了Nvme缓存设备！
 
 ### 当认出Nvme缓存设备后删除计划任务
+
