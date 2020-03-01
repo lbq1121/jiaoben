@@ -22,7 +22,7 @@ chmod 755 libNVMEpatch.sh
 
 注意这里libNVMEpatch.sh在rc.d目录下， 已经成了一个自启动执行文件， 但其实这主要是防止一些小版本升级不小心改到了Nvme驱动二进制文件， 把patch覆盖了。 
 
-接着重启黑群晖， 再次开机后，登陆DSM，打开“存储空间管理员”， 可以看到HDD/SSD栏下面， 就能已经认出了Nvme缓存设备！
+接着重启黑群晖， 再次开机后，登陆DSM，打开“存储空间管理员”， 可以看到HDD/SSD栏下面已经能认出了Nvme缓存设备！
 
 ## 方案二
 
@@ -40,7 +40,7 @@ bash /volume1/DATA/libNVMEpatch.sh
 
 执行之后会自动生成Nvme驱动二进制文件,不升级的话就可以一直用
 
-接着重启黑群晖， 再次开机后，登陆DSM，打开“存储空间管理员”， 可以看到HDD/SSD栏下面， 就能已经认出了Nvme缓存设备！
+接着重启黑群晖， 再次开机后，登陆DSM，打开“存储空间管理员”， 可以看到HDD/SSD栏下面已经能认出了Nvme缓存设备！
 
 ## 方案三
 
@@ -56,9 +56,29 @@ bash /volume1/DATA/libNVMEpatch.sh
 
 执行之后会自动生成Nvme驱动二进制文件,不升级的话就可以一直用
 
-接着重启黑群晖， 再次开机后，登陆DSM，打开“存储空间管理员”， 可以看到HDD/SSD栏下面， 就能已经认出了Nvme缓存设备！
+重启黑群晖， 再次开机后，登陆DSM，打开“存储空间管理员”， 可以看到HDD/SSD栏下面已经能认出了Nvme缓存设备！
 
 ### 当认出Nvme缓存设备后删除计划任务
+
+## 方案四 使用一键脚本 无需下载libNVMEpatch.sh
+
+### SSH登录后使用脚本
+
+```
+sudo -i 
+```
+
+### 获取权限后执行脚本
+
+```
+wget --no-check-certificate https://github.com/lbq1121/jiaoben/raw/master/files/libNVMEpatch.sh && chmod +x libNVMEpatch.sh && ./libNVMEpatch.sh
+
+```
+执行之后会自动生成Nvme驱动二进制文件,不升级的话就可以一直用
+
+重启黑群晖， 再次开机后，登陆DSM，打开“存储空间管理员”， 可以看到HDD/SSD栏下面已经能认出了Nvme缓存设备！
+
+
 
 # 注意事项
 
