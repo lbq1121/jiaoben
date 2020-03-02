@@ -7,7 +7,7 @@
 * [  探针一键脚本  ](#探针一键脚本)
 
 
-* [ transmission汉化一键脚本  ](#transmission )
+* [ transmission汉化一键脚本  ](#transmission-web汉化 )
 * [黑群晖识别m.2](https://github.com/lbq1121/jiaoben/blob/master/%E9%BB%91%E7%BE%A4%E6%99%96%E8%AF%86%E5%88%ABm.2.md)
 
 
@@ -16,7 +16,7 @@
   * [  更新和卸载](#更新和卸载)
   * [  群晖官网文档](#群晖官网文档)
 
-* [ 群晖去除更新小红点 ](#群晖小红点)
+* [ 群晖去除更新小红点 ](https://github.com/lbq1121/jiaoben/blob/master/%E7%BE%A4%E6%99%96%E5%8E%BB%E5%B0%8F%E7%BA%A2%E7%82%B9.md)
 
 * [filebrowser](#filebrowser)
 
@@ -110,11 +110,6 @@ chmod 700 ./install-frps.sh
 
 ```
 https://www.synology.com/zh-cn/knowledgebase/DSM/tutorial/Network/What_network_ports_are_used_by_Synology_services
-```
-## 群晖小红点
-
-```
-https://github.com/lbq1121/jiaoben/blob/master/%E7%BE%A4%E6%99%96%E5%8E%BB%E5%B0%8F%E7%BA%A2%E7%82%B9.md
 ```
 ## filebrowser
 
