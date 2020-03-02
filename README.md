@@ -1,12 +1,14 @@
-## 脚本索引
+# 脚本索引
 
 * [  盒子一键脚本  ](#盒子一键脚本)
+* [PT一键签到](https://github.com/lbq1121/jiaoben/raw/master/PT%E7%AB%99%E4%B8%80%E9%94%AE%E7%AD%BE%E5%88%B0.bat)
 
 
 * [  探针一键脚本  ](#探针一键脚本)
 
 
 * [ transmission汉化一键脚本  ](#transmission )
+* [黑群晖识别m.2](https://github.com/lbq1121/jiaoben/blob/master/%E9%BB%91%E7%BE%A4%E6%99%96%E8%AF%86%E5%88%ABm.2.md)
 
 
 * [  frp一键脚本](#frp)
@@ -18,13 +20,12 @@
 
 * [filebrowser](#filebrowser)
 
-* [bbr 原版/魔改/plus+锐速 四合一脚本](#bbr 原版/魔改/plus+锐速 四合一脚本)
-
+* [bbr 原版/魔改/plus+锐速 四合一脚本](#bbr-原版魔改plus锐速-四合一脚本)
 
 ## 盒子一键脚本
 
 
-```
+```shell
 bash <(wget --no-check-certificate -qO- https://github.com/Aniverse/inexistence/raw/master/inexistence.sh)
 ```
 
@@ -35,28 +36,56 @@ bash <(wget --no-check-certificate -qO- https://github.com/Aniverse/inexistence/
 
 ## 探针一键脚本
 
-```
+```shell
 wget https://raw.githubusercontent.com/lbq1121/ServerStatus-Hotaru/master/status.sh && chmod +x status.sh
 ```
 
 客户端管理菜单
-```
+```shell
 bash status.sh c
 ```
 
 服务端管理菜单
-```
+```shell
 bash status.sh s
 ```
 
-## transmission 
+## transmission-web汉化
 
-transmission-web汉化一键脚本
+### 方案一
 
-```
+SSH登陆后执行以下命令并按提示操作
+
+```shell
 wget https://github.com/ronggang/transmission-web-control/raw/master/release/install-tr-control-cn.sh
 bash install-tr-control-cn.sh
 ```
+
+### 方案二
+
+
+- 依次打开 `DSM` 的 `“控制面板”` -> `“任务计划”`；
+- 选择 `“新增”` -> `“计划的任务”` -> `“用户定义的脚本”` ；
+- 任务名称用英文，如：`AutoUpdateTrWebControl`，用户帐号选择 `root` 并选中 `已启动`；
+- 计划时间可根据自己需要来设置，如想保持最新的版本，可以设置定期执行；
+- 在 `“任务设置”` 的 `“运行命令”` -> `“用户定义的脚本”` 中输入：
+
+```
+ curl -s https://raw.githubusercontent.com/ronggang/transmission-web-control/master/release/install-tr-control-cn.sh | bash -s auto
+```
+
+- 脚本最后一定要加入 `auto` ，要不然脚本不会自动下载；
+
+- 注：`auto` 前有一个空格；
+
+- 如果需要查看是否执行成功，可以再记录一个日志文件，将上面的脚本改为：
+
+  ```
+   curl -s https://raw.githubusercontent.com/ronggang/transmission-web-control/master/release/install-tr-control-cn.sh | bash -s auto >> /volume1/MyFolder/install-tr-control-cn-log.txt 2>&1
+  ```
+
+  （此处 `/volume1/MyFolder/` 是你想要存储日志文件的目录，需要确实存在。其中 `install-tr-control-cn-log.txt` 为日志文件，每次执行的步骤和结果均会记录）
+
 
 ## frp
 
