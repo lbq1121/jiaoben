@@ -3,7 +3,7 @@
 chcp 65001>nul
 color 2f
 title PT站一键登陆签到
-start https://pthome.net/attendance.php
+start https://www.pthome.net/attendance.php
 echo 打开pt家完成
 start https://pterclub.com/attendance.php
 echo 打开猫站完成
