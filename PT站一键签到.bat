@@ -9,6 +9,8 @@ start https://pterclub.com/attendance.php
 echo 打开猫站完成
 start https://hdhome.org/attendance.php
 echo 打开HDH完成
+start https://lbj007.com/attendance.php
+echo 打开lbj007完成
 start https://ourbits.club/attendance.php
 echo 打开我堡完成
 start https://www.nicept.net/attendance.php
