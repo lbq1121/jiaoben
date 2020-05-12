@@ -41,6 +41,7 @@ echo 打开伊甸园完成
 ::休眠20秒无操作
 ::taskkill /f /t /im chrome.exe
 ::强制关闭chrome浏览器(chorme.exe可更改为其他默认浏览器程序名)
+::将”start “替换为"start microsoft-edge:"即可调用edge浏览器
 msg %username% /time:30 "已完成签到任务,更多小工具可访问小沐的博客 blog.818512.xyz"
 :: echo 按任意键结束
 :: pause>nul
