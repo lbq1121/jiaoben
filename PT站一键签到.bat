@@ -17,6 +17,8 @@ start https://www.nicept.net/attendance.php
 echo 打开老师完成
 start https://pt.soulvoice.club/attendance.php
 echo 打开铃音Club完成
+start https://1ptba.com/attendance.php
+echo 打开1ptba完成
 start https://chdbits.co/bakatest.php
 echo 打开彩虹岛完成
 start https://moecat.best/bakatest.php
@@ -39,6 +41,8 @@ start https://pt.hdbd.us/torrents.php
 echo 打开伊甸园完成
 start https://avgv.cc/AV.php
 echo 打开avgv完成
+start https://www.hitpt.com/music.php
+echo 打開百川pt完成
 msg %username% /w /time:3600 "已完成签到任务,更多小工具可访问小沐的博客 www.818512.xyz "
 rem timeout /t 20 /nobreak
 rem 休眠20秒无操作
