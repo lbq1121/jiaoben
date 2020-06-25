@@ -13,6 +13,8 @@ start https://lbj007.com/attendance.php
 echo 打开lbj007完成
 start https://ourbits.club/attendance.php
 echo 打开我堡完成
+start https://leaguehd.com/attendance.php
+echo 打开柠檬不酸完成
 start https://www.nicept.net/attendance.php
 echo 打开老师完成
 start https://pt.soulvoice.club/attendance.php
@@ -39,6 +41,8 @@ start https://brobits.cc/torrents.php
 echo 打开brobits完成
 start https://pt.hdbd.us/torrents.php
 echo 打开伊甸园完成
+start https://www.tjupt.org/torrents.php
+echo 打開北洋园完成
 start https://avgv.cc/AV.php
 echo 打开avgv完成
 start https://www.hitpt.com/music.php
