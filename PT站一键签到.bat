@@ -13,8 +13,6 @@ start https://lbj007.com/attendance.php
 echo 打开lbj007完成
 start https://ourbits.club/attendance.php
 echo 打开我堡完成
-start https://leaguehd.com/attendance.php
-echo 打开柠檬不酸完成
 start https://www.nicept.net/attendance.php
 echo 打开老师完成
 start https://pt.soulvoice.club/attendance.php
