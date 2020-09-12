@@ -21,8 +21,6 @@ start https://1ptba.com/attendance.php
 echo 打开1ptba完成
 start https://chdbits.co/bakatest.php
 echo 打开彩虹岛完成
-start https://moecat.best/bakatest.php
-echo 打开萌猫完成
 start https://yingk.com/bakatest.php
 echo 打开yingk完成
 start https://u2.dmhy.org/showup.php
