@@ -7,7 +7,7 @@ start https://www.pthome.net/attendance.php
 echo 打开pt家完成
 start https://pterclub.com/attendance.php
 echo 打开猫站完成
-start https://www.1468.top/attendance.php
+start https://www.htpt.cc/attendance.php
 echo 打开海棠(戏曲)完成
 start https://hdhome.org/attendance.php
 echo 打开HDH完成
@@ -17,6 +17,8 @@ start https://www.nicept.net/attendance.php
 echo 打开老师(大姐姐)完成
 start https://pt.soulvoice.club/attendance.php
 echo 打开铃音Club完成
+start https://open.cd/torrents.php
+echo 打开皇后(音乐)完成
 start https://1ptba.com/attendance.php
 echo 打开1ptba完成
 start https://chdbits.co/bakatest.php
@@ -33,8 +35,6 @@ start https://pt.keepfrds.com/torrents.php
 echo 打开朋友完成
 start https://nanyangpt.com/torrents.php
 echo 打开南洋完成
-start https://brobits.cc/torrents.php
-echo 打开brobits完成
 start https://pt.hdbd.us/torrents.php
 echo 打开伊甸园完成
 start https://www.tjupt.org/torrents.php
