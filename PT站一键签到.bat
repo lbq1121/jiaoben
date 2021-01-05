@@ -17,8 +17,6 @@ start https://www.nicept.net/attendance.php
 echo 打开老师(大姐姐)完成
 start https://pt.soulvoice.club/attendance.php
 echo 打开铃音Club完成
-start https://www.open.cd
-echo 打开皇后(音乐)完成
 start https://1ptba.com/attendance.php
 echo 打开1ptba完成
 start https://chdbits.co/bakatest.php
