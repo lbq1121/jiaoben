@@ -61,7 +61,18 @@ wget https://github.com/ronggang/transmission-web-control/raw/master/release/ins
 bash install-tr-control-cn.sh
 ```
 
+##### 国内用户使用
+
+```
+wget https://raw.githubusercontent.com/ronggang/transmission-web-control/master/release/install-tr-control-cn.sh
+bash install-tr-control-cn.sh
+```
+
+
+
 ### 方案二
+
+#### 第一步
 
 
 - 依次打开 `DSM` 的 `“控制面板”` -> `“任务计划”`；
@@ -70,8 +81,14 @@ bash install-tr-control-cn.sh
 - 计划时间可根据自己需要来设置，如想保持最新的版本，可以设置定期执行；
 - 在 `“任务设置”` 的 `“运行命令”` -> `“用户定义的脚本”` 中输入：
 
-```
+```shell
  curl -s https://raw.githubusercontent.com/ronggang/transmission-web-control/master/release/install-tr-control-cn.sh | bash -s auto
+```
+
+##### 国内用户使用
+
+```shell
+ curl -s https://gitee.com/culturist/transmission-web-control/raw/master/release/install-tr-control-gitee.sh | bash -s auto
 ```
 
 - 脚本最后一定要加入 `auto` ，要不然脚本不会自动下载；
@@ -80,11 +97,25 @@ bash install-tr-control-cn.sh
 
 - 如果需要查看是否执行成功，可以再记录一个日志文件，将上面的脚本改为：
 
-  ```
+  ```shell
    curl -s https://raw.githubusercontent.com/ronggang/transmission-web-control/master/release/install-tr-control-cn.sh | bash -s auto >> /volume1/MyFolder/install-tr-control-cn-log.txt 2>&1
   ```
 
+##### 国内用户使用
+
+```shell
+   curl -s https://gitee.com/culturist/transmission-web-control/raw/master/release/install-tr-control-gitee.sh | bash -s auto >> /volume1/MyFolder/install-tr-control-cn-log.txt 2>&1
+```
+
+  
+
   （此处 `/volume1/MyFolder/` 是你想要存储日志文件的目录，需要确实存在。其中 `install-tr-control-cn-log.txt` 为日志文件，每次执行的步骤和结果均会记录）
+
+#### 第二步 执行任务
+
+  - 任务创建好后就可以执行了，可以手工运行，选中该任务，点击 “运行”；
+  - 脚本将会自动下载最新的发行版本，执行过程根据网络情况而定；
+  - 如果不发生错误，过几分钟后就可以访问 [http://IP:9091](http://ip:9091/) 查看结果；
 
 
 ## frp
