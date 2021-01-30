@@ -1,6 +1,7 @@
 # 脚本索引
 
-* [  盒子一键脚本  ](#盒子一键脚本)
+* [盒子一键脚本](#盒子一键脚本)
+* [一键开启ssh密钥登陆](#一键开启ssh密钥登陆)
 * [PT一键签到](https://github.com/lbq1121/jiaoben/raw/master/PT%E7%AB%99%E4%B8%80%E9%94%AE%E7%AD%BE%E5%88%B0.bat)
 
 
@@ -32,6 +33,31 @@ bash <(wget --no-check-certificate -qO- https://github.com/Aniverse/inexistence/
 - 一键安装deluge 隐藏选项 21，是可以跳过校验、全磁盘预分配的 1.3.15 版本
 使用修改版客户端、跳过校验 存在风险，后果自负
 - 一键安装Transmission 隐藏选项 11 和 12，分别对应可以跳过校验、无文件打开数限制的 2.92、2.93 版本
+
+## 一键开启ssh密钥登陆
+
+``` shell
+wget https://raw.githubusercontent.com/lbq1121/jiaoben/master/files/opensshkey.sh
+vim opensshkey.sh
+```
+
+修改username、pubkey为个人信息后保存退出
+
+``` shell
+bash opensshkey.sh
+```
+
+> 注意事项 需安装有sudo
+
+## 一键开启ROOT SSH登陆
+
+``` shell
+wget https://raw.githubusercontent.com/lbq1121/jiaoben/master/files/openssh.sh
+bash openssh.sh
+```
+
+> 默认密码为1234qwer
+
 
 
 ## 探针一键脚本
