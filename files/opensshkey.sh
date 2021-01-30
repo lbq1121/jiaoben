@@ -11,18 +11,18 @@ chmod 700 /home/${username}/.ssh/
 echo $pubkey > /home/${username}/.ssh/authorized_keys
 chmod 600 /home/${username}/.ssh/authorized_keys
 chown -R ${username} /home/${username}/.ssh/
-#sudoÅäÖÃ
+#sudoé…ç½®
 chmod u+w /etc/sudoers
 echo "${username} ALL=(ALL) ALL" >> /etc/sudoers
-#echo "${username} ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers #Èç¹ûÓÃÕâ¸öĞÂÓÃ»§ÓÃsudoÖ´ĞĞÃüÁîÎŞĞèÈ·ÈÏROOTÃÜÂë
+#echo "${username} ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers #å¦‚æœç”¨è¿™ä¸ªæ–°ç”¨æˆ·ç”¨sudoæ‰§è¡Œå‘½ä»¤æ— éœ€ç¡®è®¤ROOTå¯†ç 
 chmod u-w /etc/sudoers
-#sshdÅäÖÃ
+#sshdé…ç½®
 sshd_file="/etc/ssh/sshd_config"
 cp -n $sshd_file /etc/ssh/sshd_config.bak
 sed -i "s|#?RSAAuthentication.*|RSAAuthentication yes|" $sshd_file
 sed -i "s|#?PubkeyAuthentication.*|PubkeyAuthentication yes|" $sshd_file
 sed -i "s|#AuthorizedKeysFile .ssh/authorized_keys|AuthorizedKeysFile .ssh/authorized_keys|" $sshd_file
-#È¥µôÏÂÃæÁ½ĞĞµÄ#ºÅ»á½ûÓÃÃÜÂëºÍROOTÓÃ»§µÇÂ¼
+#å»æ‰ä¸‹é¢ä¸¤è¡Œçš„#å·ä¼šç¦ç”¨å¯†ç å’ŒROOTç”¨æˆ·ç™»å½•
 #sed -i "s|#?PasswordAuthentication.*|PasswordAuthentication no| $sshd_file
 #sed -i "s|#?PermitRootLogin.*|PermitRootLogin no| $sshd_file
 systemctl restart sshd;systemctl restart ssh;service sshd restart;service ssh restart
