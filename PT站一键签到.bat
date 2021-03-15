@@ -27,7 +27,7 @@ start https://u2.dmhy.org/showup.php
 echo 打开幼儿园(签到页)完成
 start https://springsunday.net/torrents.php
 echo 打开春天完成
-start https://pt.m-team.cc/adult.php
+start https://kp.m-team.cc/adult.php
 echo 打开馒头(大姐姐分区)完成
 start https://pt.keepfrds.com/torrents.php
 echo 打开朋友完成
