@@ -9,6 +9,16 @@ start https://pterclub.com/attendance.php
 echo 打开猫站完成
 start https://www.htpt.cc/attendance.php
 echo 打开海棠(戏曲)完成
+start https://monikadesign.uk/login
+echo 打开莫妮卡完成
+start https://piggo.me//attendance.php
+echo 打开猪猪网完成
+start https://www.hddolby.com/attendance.php
+echo 打开高清杜比完成
+start http://pt.tu88.men/attendance.php
+echo 打开TU88（18+）完成
+start https://www.hdpt.xyz/attendance.php
+echo 打开明教完成
 start https://hdhome.org/attendance.php
 echo 打开HDH完成
 start https://ourbits.club/attendance.php
@@ -21,8 +31,8 @@ start https://hdatmos.club/attendance.php
 echo 打开杜比视界完成
 start https://chdbits.co/bakatest.php
 echo 打开彩虹岛(签到页)完成
-start https://yingk.com/bakatest.php
-echo 打开yingk(签到页)完成
+start https://greatposterwall.com/torrents.php
+echo 打开海豚完成
 start https://u2.dmhy.org/showup.php
 echo 打开幼儿园(签到页)完成
 start https://springsunday.net/torrents.php
